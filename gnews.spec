@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	0b177ccc2739320b1d451d91225b3b66
 URL:		http://gnews.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
