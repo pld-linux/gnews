@@ -1,7 +1,7 @@
 Summary:	Gnome Panel applet that displays scrolling news headlines
 Summary(pl):	Applet dla GNOME wy¶wietlaj±cy wiadomo¶ci
 Name:		gnews
-Version:	0.0.6
+Version:	0.0.8
 Release:	1
 License:	GPL
 Group:		X11/Applications
