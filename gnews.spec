@@ -1,7 +1,7 @@
 Summary:	Gnome Panel applet that displays scrolling news headlines
 Summary(pl):	Applet dla GNOME wy¶wietlaj±cy wiadomo¶ci
 Name:		gnews
-Version:	0.1.0
+Version:	0.1.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
@@ -52,14 +52,12 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf AUTHORS BUGS ChangeLog NEWS README TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS BUGS ChangeLog NEWS README TODO
 %attr(755,root,root) %{_bindir}/*
 %{_pixmapsdir}/*
 %{_datadir}/applets/*/*.desktop
