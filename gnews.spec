@@ -1,5 +1,5 @@
 Summary:	Gnome Panel applet that displays scrolling news headlines
-Summary(pl):	Applet dla GNOME wy¶wietlaj±cy wiadomo¶ci.
+Summary(pl):	Applet dla GNOME wy¶wietlaj±cy wiadomo¶ci
 Name:		gnews
 Version:	0.0.5
 Release:	1
@@ -9,6 +9,8 @@ Group(de):	X11/Applikationen
 Group(pl):	X11/Aplikacje
 Source0:	http://download.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
 URL:		http://gnews.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	gnome-libs-devel >= 1.0.54
 BuildRequires:	gnome-core-devel
 BuildRequires:	libghttp-devel
