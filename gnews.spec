@@ -38,7 +38,7 @@ dobrze znanych serwisów sieciowych.
 %build
 rm -f config.cache
 mv -f aclocal.m4 acinclude.m4
-aclocal
+%{__aclocal}
 %{__autoconf}
 %configure \
 	--with-gnome=%{_prefix} \
