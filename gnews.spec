@@ -22,7 +22,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define         _prefix         /usr/X11R6
 %define         _sysconfdir     /etc/X11/GNOME
-%define         _localstatedir  /var             
+%define         _localstatedir  /var
 
 %description
 The gnews package provides a Panel applet which displays news
