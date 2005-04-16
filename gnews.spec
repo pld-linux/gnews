@@ -5,20 +5,20 @@ Version:	0.1.3
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/gnews/%{name}-%{version}.tar.gz
 # Source0-md5:	0b177ccc2739320b1d451d91225b3b66
 URL:		http://gnews.sourceforge.net/
+BuildRequires:  ORBit-devel
+BuildRequires:  XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:  db3-devel
+BuildRequires:  gdk-pixbuf >= 0.7.0
+BuildRequires:  glib-devel
+BuildRequires:  gnome-core-devel
 BuildRequires:	gnome-libs-devel >= 1.0.54
-BuildRequires:	gnome-core-devel
+BuildRequires:  gtk+-devel
 BuildRequires:	libghttp-devel
-BuildRequires:	gdk-pixbuf >= 0.7.0
-BuildRequires:	ORBit-devel
-BuildRequires:	gtk+-devel
-BuildRequires:	XFree86-devel
-BuildRequires:	db3-devel
-BuildRequires:	glib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define         _sysconfdir     /etc/X11/GNOME
@@ -29,7 +29,7 @@ The gnews package provides a Panel applet which displays news
 headlines from well known sites.
 
 %description -l pl
-Pakiet gnews dostarcza applet umo¿liwiaj±cy wy¶wietlanie nowinek z
+Pakiet gnews dostarcza aplet umo¿liwiaj±cy wy¶wietlanie nowinek z
 dobrze znanych serwisów sieciowych.
 
 %prep
