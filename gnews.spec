@@ -8,16 +8,16 @@ Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/gnews/%{name}-%{version}.tar.gz
 # Source0-md5:	0b177ccc2739320b1d451d91225b3b66
 URL:		http://gnews.sourceforge.net/
-BuildRequires:  ORBit-devel
-BuildRequires:  XFree86-devel
+BuildRequires:	ORBit-devel
+BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:  db3-devel
-BuildRequires:  gdk-pixbuf >= 0.7.0
-BuildRequires:  glib-devel
-BuildRequires:  gnome-core-devel
+BuildRequires:	db3-devel
+BuildRequires:	gdk-pixbuf >= 0.7.0
+BuildRequires:	glib-devel
+BuildRequires:	gnome-core-devel
 BuildRequires:	gnome-libs-devel >= 1.0.54
-BuildRequires:  gtk+-devel
+BuildRequires:	gtk+-devel
 BuildRequires:	libghttp-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
