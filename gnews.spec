@@ -1,5 +1,5 @@
 Summary:	GNOME Panel applet that displays scrolling news headlines
-Summary(pl):	Applet dla GNOME wy∂wietlaj±cy wiadomo∂ci
+Summary(pl.UTF-8):   Applet dla GNOME wy≈õwietlajƒÖcy wiadomo≈õci
 Name:		gnews
 Version:	0.1.3
 Release:	1
@@ -28,9 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The gnews package provides a Panel applet which displays news
 headlines from well known sites.
 
-%description -l pl
-Pakiet gnews dostarcza aplet umoøliwiaj±cy wy∂wietlanie nowinek z
-dobrze znanych serwisÛw sieciowych.
+%description -l pl.UTF-8
+Pakiet gnews dostarcza aplet umo≈ºliwiajƒÖcy wy≈õwietlanie nowinek z
+dobrze znanych serwis√≥w sieciowych.
 
 %prep
 %setup -q
