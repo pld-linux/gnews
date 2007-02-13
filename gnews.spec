@@ -1,5 +1,5 @@
 Summary:	GNOME Panel applet that displays scrolling news headlines
-Summary(pl.UTF-8):   Applet dla GNOME wyświetlający wiadomości
+Summary(pl.UTF-8):	Applet dla GNOME wyświetlający wiadomości
 Name:		gnews
 Version:	0.1.3
 Release:	1
